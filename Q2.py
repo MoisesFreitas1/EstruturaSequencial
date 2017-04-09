@@ -42,10 +42,11 @@ while PesoMagem2 < pesoTotal:
 
     PesoMagem2 = margem2[0] + margem2[1] + margem2[2] + margem2[3]
     tentativa = tentativa + 1
-    print(tentativa,"a tentativa")
 
 PesoMagem2 = margem2[0]+margem2[1]+margem2[2]+margem2[3]
 PesoMagem1 = margem1[0]+margem1[1]+margem1[2]+margem1[3]
+
+print("Passagem concluida no turno ",tentativa)
 
 print(PesoMagem1," kg na margem 1")
 print(PesoMagem2," kg na margem 2")
